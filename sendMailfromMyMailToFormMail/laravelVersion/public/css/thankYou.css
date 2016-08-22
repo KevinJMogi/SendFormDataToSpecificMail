@@ -1,0 +1,17 @@
+div {
+	width: 35%;
+    border-radius: 10px;
+    background-color: #f2f2f2;
+    padding: 20px;
+	margin:auto;
+	margin-top:150px;
+	text-align: center;
+}
+
+
+h1,a{
+	margin: 20px auto;
+	color:#45a049;
+	font-family: Lato, Helvetica, sans-serif;
+	font-weight : 100;
+}

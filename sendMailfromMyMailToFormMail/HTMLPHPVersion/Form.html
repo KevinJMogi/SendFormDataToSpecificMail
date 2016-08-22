@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Visitor</title>
+	<link href='FormStyle.css' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Lato:400,700' rel='stylesheet' type='text/css'>
+</head>
+
+<body>
+
+<div>
+  <form action="sendMail.php" method="post">
+	<h6>Visitor</h6>
+	
+    <input type="text" id="name" name="name" placeholder="Name" required>
+	<input type="email" id="email" name="email" placeholder="Email" required>
+	<input type="text" id="phone" name="phone" placeholder="Phone" required pattern="[0-9]{1,}" 
+		   onchange="setCustomValidity('')"
+		   oninvalid="setCustomValidity('Please fill the field with number only')">
+	<input type="text" id="occupation" name="occupation" placeholder="Occupation" required>
+	
+    <input type="submit" value="Sign Up">
+  </form>
+</div>
+
+
+</body>
+</html>
+
